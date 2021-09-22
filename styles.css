@@ -43,7 +43,6 @@ body{
 }
 img{
     height: 150px;
-    float: left;
     padding-right: 20px;
 }
 h1{
@@ -66,31 +65,32 @@ h4{
 }
 .Content{
     background-image: url("Background.jpg");
-    background-size: 2000px;
-    display: block;
+    background-size:cover;
     padding: 10px 100px;
     color: floralwhite;
+    display: flex;
 }
 .Stuff{
-    display: block;
     color: black;
+    display: flex;
 }
 .Column{
     padding-right: 30px;
-    float: left;
     justify-content:space-between;
 
 }
 .Actor{
     padding-left: 100px;
     padding-top: 20px;
+    display: flex;
 }
 .Image{
     padding-right: 50px;
-    display: block;
-    float: left;
+    display: flex;
     border-radius: 10px;
-  box-shadow: 8px 10px 19px 1px rgba(0,0,0,0.59);
+    box-shadow: 8px 10px 19px 1px rgba(0,0,0,0.59);
 }
+
+
 
 
