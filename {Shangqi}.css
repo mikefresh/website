@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+}
+.Title{
+  background-color:rgb(1, 29, 29); 
+  color:black;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between; 
+}
+.Title a:hover {
+    padding-right: 20px;
+    background-color:white;
+    color: black;
+  }
+.TitleLeft{
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 2px;
+  justify-content: space-between;
+
+}
+.TitleRight{
+    display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 150px;
+  justify-content:space-between;
+
+}
+.Help{
+    color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    padding:10px 100px;
+    justify-content:space-between;
+}
+#poster{
+    height: 400px;
+}
+img{
+    height: 150px;
+    float: left;
+    padding-right: 20px;
+}
+h1{
+    color: blanchedalmond;
+    font-size: 40px;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:dimgray;
+}
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: blanchedalmond;
+}
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: blanchedalmond;
+}
+.Content{
+    background-image: url("Background.jpg");
+    background-size: 2000px;
+    display: block;
+    padding: 10px 100px;
+    color: floralwhite;
+}
+.Stuff{
+    display: block;
+    color: black;
+}
+.Column{
+    padding-right: 30px;
+    float: left;
+    justify-content:space-between;
+
+}
+.Actor{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.Image{
+    padding-right: 50px;
+    display: block;
+    float: left;
+    border-radius: 10px;
+  box-shadow: 8px 10px 19px 1px rgba(0,0,0,0.59);
+}
+
+
